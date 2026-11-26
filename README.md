@@ -3,7 +3,7 @@
 This lab demonstrates how unsafe diagnostic logging in a third-party action can
 expose an ephemeral workflow credential.
 
-## Vulnerability
+## Vulnerability1
 
 `pull_request_target` runs the notification workflow in the base repository
 context. It passes a write-capable `GITHUB_TOKEN` and an attacker-controlled
